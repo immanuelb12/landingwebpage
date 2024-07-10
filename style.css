@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background: url('photo2.jpg') no-repeat center center/cover;
+    padding: 20px 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    margin: 0;
+}
+
+ 
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+
+
+
+
+.hero {
+   
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 0 0 20px;
+}
+
+.btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+.about{
+    background-color: aqua;
+}
+
+.about, .courses, .pricing, .blog, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#courses{
+    background-color: skyblue;
+}
+
+.course-item:hover{
+    background-color: yellowgreen;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#blog{
+    background-color: grey;
+}
+.course-list, .pricing-list, .blog-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-item, .pricing-item1,.pricing-item2,.pricing-item3, .blog-item {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.pricing-item1:hover{
+    background-color: blue;
+
+}
+.pricing-item2:hover{
+    background-color: silver;
+}
+.pricing-item3:hover{
+    background-color: gold;
+}
+#contact{
+    background-color: yellow;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.footer {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-address{
+    text-align: left;
+}
+
+.footer-follow{
+    text-align: center;
+}
+
+.footer-contact{
+    text-align: right;
+}
+table {
+    border-spacing: 80px;
+  }
